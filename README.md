@@ -35,4 +35,15 @@ Angela Caroll |	Chief Editor         |	angela-caroll-chief-editor.jpg
 Walter Gordon |	Office Manager       |	walter-gordon-office-manager.jpg
 Angela Lopez  |	Social Media Manager |	angela-lopez-social-media-manager.jpg
 Scott Estrada |	Developer            |	scott-estrada-developer.jpg
-Barbara Ramos |	Graphic Designer     |	barbara-ramos-graphic-designer.jpg
+Barbara Ramos |	Graphic Designer     |	barbara-ramos-graphic-designer.jpg 
+
+
+
+
+
+### Step logici 
+
+- 1 Creo html e css
+- 2 Creo array vuoto con all'interno ogetti contentei dati dei dipendenti
+- 3 Stampo in console i dati dei dipendenti 
+- 4 Stampo nel dom i dati
