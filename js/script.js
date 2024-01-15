@@ -23,7 +23,7 @@ const employers = [
     {
         name : 'Angela Lopez',
         role : 'Social Media Manager',
-        iamge : 'angela-lopez-social-media-manager.jpg'
+        image : 'angela-lopez-social-media-manager.jpg'
     },
     {
         name : 'Scott Estrada',
