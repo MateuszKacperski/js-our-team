@@ -13,3 +13,9 @@ img{
     width: auto;
     display: block;
 }
+
+
+.conteiner{
+    max-width: 1080px;
+    margin: 0 auto;
+}
