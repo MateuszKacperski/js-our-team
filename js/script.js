@@ -1,5 +1,8 @@
 console.log('JS ok');
 
+// prendo le card dal dom
+const displayCard = document.querySelector('.row');
+
 // creo arry di oggetti ossia gli impiegati
 const employers = [
     {
@@ -34,14 +37,34 @@ const employers = [
     }
 ]
 
-//Ciclo per stampare i dati dei employers
+
+let results = '';
+
+//Ciclo per stampare i dati dei employers 
 
 for(let i = 0; i < employers.length;i++){
+
+    // stampa in console
     const nome = employers[i].name;
     const ruolo = employers[i].role;
     const image = employers[i].image;
     console.log(`nome : ${nome}`);
     console.log(`ruolo : ${ruolo}`);
     console.log(`immagine : ${image}`);
-  
+
+    //stampa nel dom
+    results += `
+    <div class="col-4">
+        <div class="card" style="width: 18rem;">
+            <img src="img/${image}" class="card-img-top" alt="employer">
+            <div class="card-body">
+                <h5 class="card-title">${nome}</h5>
+                <p class="card-text">${ruolo}</p>
+            </div>
+        </div>
+    
+    </div>
+    `
 }
+
+displayCard.innerHTML = results;
