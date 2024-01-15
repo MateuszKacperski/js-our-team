@@ -1,0 +1,15 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Utilse*/
+
+img{
+    height: 100%;
+    width: auto;
+    display: block;
+}
